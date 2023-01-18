@@ -8,8 +8,6 @@ To upgrade python-sqlalchemy-continuum
 
 * Update the version number in the `VERSION` file
 * Update the changelog using `dch -i` to the matching version
-* Refresh patches
-* Push the changes
 
 ## Building Locally
 
