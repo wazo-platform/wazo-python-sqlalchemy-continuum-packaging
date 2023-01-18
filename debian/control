@@ -4,29 +4,11 @@ Priority: optional
 Maintainer: Wazo Maintainers <dev+pkg@wazo.community>
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python-all (>= 2.7),
-               python-setuptools,
                python3-all,
                python3-setuptools
 Standards-Version: 3.9.6
-X-Python-Version: >= 2.7
-X-Python3-Version: >= 3.5
+X-Python3-Version: >= 3.7
 Homepage: https://github.com/kvesteri/sqlalchemy-continuum.git
-
-Package: python-sqlalchemy-continuum
-Architecture: all
-Depends: ${misc:Depends},
-         ${python:Depends},
-Description: Python Versioning and auditing extension for SQLAlchemy.
- .
- - Creates versions for inserts, deletes and updates
- - Does not store updates which don't change anything
- - Supports alembic migrations
- - Can revert objects data as well as all object relations at given transaction even if the object was deleted
- - Transactions can be queried afterwards using SQLAlchemy query syntax
- - Query for changed records at given transaction
- - Temporal relationship reflection. Version object's relationship show the parent objects relationships as they where in that point in time.
- - Supports native versioning for PostgreSQL database (trigger based versioning)
 
 Package: python3-sqlalchemy-continuum
 Architecture: all
