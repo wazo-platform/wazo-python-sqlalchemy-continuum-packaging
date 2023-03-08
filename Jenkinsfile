@@ -20,7 +20,9 @@ pipeline {
     stage ('Build package') {
       steps {
         build job: 'build-package-no-arch', parameters: [
-          string(name: 'PACKAGE', value: "${JOB_NAME}"),
+          string(name: 'PACKAGE', value: "wazo-python-sqlalchemy-continuum-packaging"),
+          string(name: "BRANCH", value: "bullseye"),
+          string(name: "DISTRIBUTION", value: "wazo-dev-wip-bullseye"),
           string(name: 'VERSION', value: "${version}"),
         ]
       }
