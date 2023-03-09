@@ -13,7 +13,7 @@ Homepage: https://github.com/kvesteri/sqlalchemy-continuum.git
 Package: python3-sqlalchemy-continuum
 Architecture: all
 Depends: ${misc:Depends},
-         ${python3:Depends},
+         ${python3:Depends}
 Description: Python Versioning and auditing extension for SQLAlchemy.
  .
  - Creates versions for inserts, deletes and updates
