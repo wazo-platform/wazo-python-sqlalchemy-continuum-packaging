@@ -2,18 +2,18 @@ Source: wazo-python-sqlalchemy-continuum-packaging
 Section: python
 Priority: optional
 Maintainer: Wazo Maintainers <dev+pkg@wazo.community>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 12),
                dh-python,
                python3-all,
                python3-setuptools
 Standards-Version: 3.9.6
-X-Python3-Version: >= 3.7
+X-Python3-Version: >= 3.9
 Homepage: https://github.com/kvesteri/sqlalchemy-continuum.git
 
 Package: python3-sqlalchemy-continuum
 Architecture: all
 Depends: ${misc:Depends},
-         ${python3:Depends},
+         ${python3:Depends}
 Description: Python Versioning and auditing extension for SQLAlchemy.
  .
  - Creates versions for inserts, deletes and updates
