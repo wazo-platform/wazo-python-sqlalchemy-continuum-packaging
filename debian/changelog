@@ -1,4 +1,4 @@
-wazo-python-sqlalchemy-continuum-packaging (1.3.14-1~wazo2) wazo-dev-bullseye; urgency=medium
+wazo-python-sqlalchemy-continuum-packaging (1.3.14-1~wazo3) wazo-dev-bullseye; urgency=medium
 
   * Bullseye build
 
